@@ -17,11 +17,25 @@ func main() {
     // fmt.Println("Hello,", name)
 
 
-	result := Hello("Hello World ")       // call your own Hello() function
-    fmt.Println(result)
+	// result := Hello("Hello World ")       // call your own Hello() function
+    // fmt.Println(result)
+
+
+	if 10 > 5{
+		fmt.Print("greater")
+	}
+	//  in   go we can't write like this 
+	/* if x > y 
+	 {
+
+	 }
+	*/
+
+	// this cause problems as go will a semi colon after condition as it thinks that the sentence is finished 
+	
 
 
 } 
-func Hello(name string ) string{
-		return name 
-}
+// func Hello(name string ) string{
+// 		return name 
+// }
