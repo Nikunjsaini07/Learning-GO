@@ -49,6 +49,9 @@ func main() {
 // the while loop
 
 
+// defer 
+//  for example you open a file (function calls ) and now after  some times you forgot to close that functions so what you did is you use defer added the function call to defer after calling it , it has a stack memeory which takes account of everything
+
 
 
  }
