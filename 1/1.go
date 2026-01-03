@@ -2,7 +2,16 @@ package main
 import (
 	"fmt"
 )
+// type vertex struct{
+// 	x int 
+// 	y int
+// }
 
+// func (v vertex ) Abs()  int  {
+// 	return v.x*v.y
+// }
+
+// (v vertex ) is a receiver of type so we add a method to this 
 func main() {
 
 	// i:=0
@@ -78,11 +87,44 @@ func main() {
 
 
 // maps
+
 // var m map[int]int 
 // m = make(map[int]int)
 // m[10] = 90 
 // fmt.Print(m[10])
 
+// we can initialise a  map why literal symbol rightaway 
+
+// v := vertex{3 , 4}
+
+// fmt.Print(v.Abs())
+// Intrrface in go
+
+// type a interface {
+//     abs() float64
+// }
+// Any type that wants to be considered an a must have a method named abs that takes no arguments and returns a float64 
+
+// type MyNumber float64
+
+// func (m MyNumber) abs() float64 {
+//     if m < 0 {
+//         return -float64(m)
+//     }
+//     return float64(m)
+// } 
+
+// a type alredy satisfy if it has a method and same return type so we dont write implements in go 
+
+
+// var x a
+// x = MyNumber(-5)
+
+// fmt.Println(x.abs()) // 5
+
+// type i interface{}
+// we use this for using any type variable 
 
 }
+
 
