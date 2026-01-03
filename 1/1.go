@@ -2,6 +2,7 @@ package main
 import (
 	"fmt"
 )
+
 // type vertex struct{
 // 	x int 
 // 	y int
